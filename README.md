@@ -9,9 +9,11 @@ Requirements:
 - LibreNMS
 
 Copy the eaton-nut.py script to /etc/snmpd/eaton-nut.py
+
 chmod a+x /etc/snmpd/eaton-nut.py
 
 Add the following to /etc/snmp/snmpd.conf:
+
 extend eaton-nut /etc/snmp/eaton-nut.py names
 extend eaton-nut /etc/snmp/eaton-nut.py values
 
