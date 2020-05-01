@@ -15,6 +15,7 @@ chmod a+x /etc/snmpd/eaton-nut.py
 Add the following to /etc/snmp/snmpd.conf:
 
 extend eaton-nut /etc/snmp/eaton-nut.py names
+
 extend eaton-nut /etc/snmp/eaton-nut.py values
 
 Relead the snmpd daemon.
